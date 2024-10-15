@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login i Registre</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Benvingut a l'App</h1>
+        
+        <!-- Formulari de Login -->
+        <div id="loginForm">
+            <h2>Inicia Sessió</h2>
+            <label for="loginUsername">Nom d'usuari:</label>
+            <input type="text" id="loginUsername" placeholder="Usuari">
+            <label for="loginPassword">Contrasenya:</label>
+            <input type="password" id="loginPassword" placeholder="Contrasenya">
+            <button onclick="login()">Inicia Sessió</button>
+            <p id="loginMessage"></p>
+        </div>
+
+        <!-- Formulari de Registre -->
+        <div id="registerForm">
+            <h2>Registra't</h2>
+            <label for="registerEmail">Email:</label>
+            <input type="email" id="registerEmail" placeholder="Email">
+            <label for="registerUsername">Nom d'usuari:</label>
+            <input type="text" id="registerUsername" placeholder="Usuari">
+            <label for="registerPassword">Contrasenya:</label>
+            <input type="password" id="registerPassword" placeholder="Contrasenya">
+            <label for="confirmPassword">Confirma la Contrasenya:</label>
+            <input type="password" id="confirmPassword" placeholder="Confirma la Contrasenya">
+            <button onclick="register()">Registra't</button>
+            <p id="registerMessage"></p>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "CordoTest",
+  "short_name": "CordoTest",
+  "version": "com.enricmieza.cordotest",
+  "description": "Selenium test with Cordova project",
+  "author": "Apache Cordova Team",
+  "icons": [],
+  "start_url": "index.html"
+}
